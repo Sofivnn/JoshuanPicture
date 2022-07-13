@@ -1,0 +1,33 @@
+@import "navbar.css";
+@import "pictures.css";
+
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: #17191a;
+    /* background-image: url(https://cutewallpaper.org/21/hd-wallpapers-night-sky/Night-sky-stars-and-comet-Wallpaper-4k-Ultra-HD-ID3036.jpg); */
+    /* background-image: url(https://images4.alphacoders.com/109/1093655.jpg); */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+#home #main_page{
+    position: relative;
+
+}
+
