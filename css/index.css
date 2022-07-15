@@ -78,5 +78,8 @@ ul{
     .data-info h1{
         color: white;
         font-size: 4rem;
+        line-height: 60px;
+        color: white;
+        padding-bottom: 35px;
     }
 }
