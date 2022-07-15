@@ -6,6 +6,7 @@
 
 
 #navbar {
+    position: relative;
     padding: 0 25px 0 25px;
     display: flex;
     align-items: center;
@@ -17,6 +18,7 @@
     font-weight: 100;
     text-transform: uppercase;
     background-color: transparent;
+    position: relative;
 }
 
 
@@ -42,6 +44,9 @@
     text-decoration: none;
     color: #fff;
 }
+
+
+
 
 #navbar:hover ul li:not(:hover) {
     opacity: .7;
@@ -91,6 +96,8 @@
     .bar::before,
     .bar::after {
         transform: rotate(0deg);
+        transition: all 0.5s;
+
     }
 
     .active .bar {
@@ -98,11 +105,14 @@
     }
 
     .active .bar::before {
+        transition: all 0.5s;
         transform: rotate(45deg);
     }
 
     .active .bar::after {
         transform: rotate(-45deg);
+        transition: all 0.5s;
+
     }
 
     .active .bar::before,
@@ -111,6 +121,7 @@
     }
 
     #navbar {
+        /* transition: all 0.5s; */
         flex-direction: column;
         display: flex;
         justify-content: center;
@@ -135,8 +146,9 @@
     }
 
     #navbar ul li {
+        font-size: 1.5rem;
         display: block;
-        padding: 4rem 1rem;
+        padding: 3rem 1rem;
     }
 
     .main-text h1 {
