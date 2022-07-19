@@ -1,6 +1,8 @@
-const darkMode = document.getElementById('dark-mode');
+const toggler_nav = document.querySelector('.nav-toggler');
+const nav = document.querySelector('nav');
 
-darkMode.addEventListener('click', function(){
-    document.body.style="background-color : white";
-    alert("Jennifer est une grognasse")
+toggler_nav.addEventListener('click',function(){
+  toggler_nav.classList.toggle("active")
+  nav.classList.toggle("active")
+  
 })
